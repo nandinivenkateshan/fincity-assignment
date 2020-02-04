@@ -33,6 +33,9 @@
     background: #ffffff;
     border-radius: 20px 20px 0px 0px;
 }
+.user--heading {
+    background: #91f0f7;
+}
 .kyc__heading--label {
     width: 100px;
     position: absolute;
@@ -43,7 +46,10 @@
     padding: 10px;
     border-radius: 0px 15px 0px 0px;
     text-align: center;
+}
 
+.user__heading--label {
+    background: #16565a;
 }
 
 .kyc__heading--label:before {
@@ -57,6 +63,9 @@
     left: -70px;
     border-radius: 50%;
 }
+.user__heading--label:before {
+    background: #91f0f7;
+}
 
 .kyc__para {
     padding: 25px;
@@ -65,6 +74,11 @@
     color: #6bbfc5;
     border-radius: 0px 0px 20px 20px;
     min-height: 150px;
+}
+
+.user--para {
+    background: #91f0f7;
+    color: #16565a;
 }
 .kyc__circle {
     background: #6bbfc5;
@@ -90,7 +104,9 @@
     font-weight: bold;
     font-size: 20px;
 }
-
+.user-circle {
+background: #ffffff;
+}
 
 /* Medium size mobile */
  @media (max-width:375px) and (min-width:326px) {
