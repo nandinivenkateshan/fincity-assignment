@@ -4,11 +4,14 @@
     padding: 20px;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
+    margin: 0px;
 }
+
 .header__heading {
     color: #ffffff;
     text-align: center;
 }
+
 .header__logo {
     height:30px;
     width: auto;
@@ -25,17 +28,21 @@
     border-radius: 50px;
     margin-bottom: 50px;
 }
+
 .kyc__article {
     position: relative;
 }
+
 .kyc__heading {
     height: 60px;
     background: #ffffff;
     border-radius: 20px 20px 0px 0px;
 }
+
 .user--heading {
     background: #91f0f7;
 }
+
 .kyc__heading--label {
     width: 100px;
     position: absolute;
@@ -63,6 +70,7 @@
     left: -70px;
     border-radius: 50%;
 }
+
 .user__heading--label:before {
     background: #91f0f7;
 }
@@ -80,6 +88,7 @@
     background: #91f0f7;
     color: #16565a;
 }
+
 .kyc__circle {
     background: #6bbfc5;
     height: 80px;
@@ -91,6 +100,7 @@
     left: -20px;
     top: -3px;
 }
+
 .inner-circle {
     height: 60px;
     width: 60px;
@@ -104,6 +114,7 @@
     font-weight: bold;
     font-size: 20px;
 }
+
 .user-circle {
 background: #ffffff;
 }
