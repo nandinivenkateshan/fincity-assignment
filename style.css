@@ -1,4 +1,4 @@
-
+/* small size mobile */
 .main{
     background: #6bbfc5;
     padding: 20px;
@@ -15,32 +15,58 @@
     display: block;
     margin: auto;
 }
-.kyc__signUp__article {
+
+.kyc {
+    border: 1px solid white;
+    display: grid;
+    grid-template-columns:1fr; 
+    grid-gap: 20px;
+    padding: 30px;
+    border-radius: 50px;
+    margin-bottom: 50px;
+}
+.kyc__article {
     position: relative;
 }
-.kyc__signUp__heading {
+.kyc__heading {
     height: 60px;
     background: #ffffff;
     border-radius: 20px 20px 0px 0px;
 }
-.kyc__signUp__heading--label {
+.kyc__heading--label {
+    width: 100px;
     position: absolute;
-    right: 10px;
+    right: 20px;
     top:-5px;
     color:#ffffff;
     background: #6bbfc5;
     padding: 10px;
-    border-radius: 0px 20px 0px 0px;
+    border-radius: 0px 15px 0px 0px;
+    text-align: center;
+
 }
 
-.kyc__signUp__para {
+.kyc__heading--label:before {
+    content: '';
+    height: 85px;
+    width: 80px;
+    background: #ffffff;
+    display: block;
+    position: absolute;
+    top: -17px;
+    left: -70px;
+    border-radius: 50%;
+}
+
+.kyc__para {
     padding: 25px;
     background: #ffffff;
     margin: 0px;
     color: #6bbfc5;
     border-radius: 0px 0px 20px 20px;
+    min-height: 150px;
 }
-.kyc__signUp__circle {
+.kyc__circle {
     background: #6bbfc5;
     height: 80px;
     width: 80px;
@@ -60,37 +86,54 @@
     top: 10px;
     left: 10px;
     line-height: 50px;
+    color: #6bbfc5;
+    font-weight: bold;
+    font-size: 20px;
 }
 
-/* .kyc {
-    border: 1px solid #ffffff;
-    display: grid;
-    border-radius: 20px;
-    grid-template-columns: 1fr;
-    grid-template-rows: repeat(3,1fr);
-    padding: 20px;
+
+/* Medium size mobile */
+ @media (max-width:375px) and (min-width:326px) {
+    .kyc__heading--label  {
+        width: 155px;
+    }
 }
-.kyc__signUp__article {
-    background: #ffffff;
-    border-radius: 30px; 
-    padding: 20px;
-    color: #6bbfc5;
-    position: relative;
+
+/* Large size mobile */
+@media (min-width:376px) and (max-width:426px) {
+    .kyc__heading--label  {
+        width: 200px;
+    }
+}
+
+/* tab */
+
+@media (min-width:768px) {
+    .kyc {
+        grid-template-columns:repeat(3, 1fr); 
+    }
+    .kyc__para {
+        height: 200px;
+    }
+}
+
+/* large devices */
+
+@media (min-width:993px) {
+    .kyc__heading--label  {
+        width: 182px;
+    }
+    .kyc__heading--label:before{
+        height: 72px;
+    }
  
 }
-.kyc__signUp__circle {
-    min-height: 80px;
-    width: 80px;
-    background: #6bbfc5;
-    border-radius: 50%;
-    position:absolute;
-    z-index:1; 
-    left: 25px;
-    text-align: center;
+/* extra large devices */
+@media (min-width:1025px) {
+    .kyc__heading--label  {
+        width: 270px;
+    }
+    .kyc__heading--label:before{
+        height: 72px;
+    }
 }
-.kyc__signUp__heading {
-    background: #6bbfc5;
-    color: #ffffff;
-    border-radius: 0px 30px 0px 0px; 
-    text-align: center;
-} */
