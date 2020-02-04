@@ -7,4 +7,4 @@ To Generate the UI (HTML/CSS) for the below screenshot and to be responsive. ![S
 and double tap on index.html file to review the UI.
 
 ## Demo
-``` https://fincity-assignment.netlify.com/ ```
+[Click to see demo](https://fincity-assignment.netlify.com/)
