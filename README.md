@@ -1,5 +1,5 @@
 # Assignment by Fincity
-To Generate the UI (HTML/CSS) for the below screenshot and to be responsive. ![Screenshot](https://github.com/nandinivenkateshan/fincity-assignment/blob/master/MOCK%20UP.JPG)
+To Generate the UI (HTML/CSS) for the below screenshot and to be responsive. ![Screenshot](https://github.com/nandinivenkateshan/fincity-assignment/blob/master/images/MOCK%20UP.JPG)
 
 
 ## Getting Started
