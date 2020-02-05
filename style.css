@@ -1,166 +1,262 @@
 /* small size mobile */
-.main{
-    background: #6bbfc5;
-    padding: 20px;
-    box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
-    margin: 0px;
+.main {
+  background: #6bbfc5;
+  padding: 20px;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  margin: 0px;
 }
 
 .header__heading {
-    color: #ffffff;
-    text-align: center;
+  color: #ffffff;
+  text-align: center;
 }
 
 .header__logo {
-    height:30px;
-    width: auto;
-    display: block;
-    margin: auto;
+  height: 30px;
+  width: auto;
+  display: block;
+  margin: auto;
 }
 
 .kyc {
-    border: 1px solid white;
-    display: grid;
-    grid-template-columns:1fr; 
-    grid-gap: 20px;
-    padding: 30px;
-    border-radius: 50px;
-    margin-bottom: 50px;
+  border: 1px solid white;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 20px;
+  padding: 30px;
+  border-radius: 50px;
+  margin-bottom: 50px;
 }
 
 .kyc__article {
-    position: relative;
+  position: relative;
 }
 
 .kyc__heading {
-    height: 60px;
-    background: #ffffff;
-    border-radius: 20px 20px 0px 0px;
+  height: 60px;
+  background: #ffffff;
+  border-radius: 20px 20px 0px 0px;
 }
 
 .user--heading {
-    background: #91f0f7;
+  background: #91f0f7;
 }
 
 .kyc__heading--label {
-    width: 100px;
-    position: absolute;
-    right: 20px;
-    top:-5px;
-    color:#ffffff;
-    background: #6bbfc5;
-    padding: 10px;
-    border-radius: 0px 15px 0px 0px;
-    text-align: center;
+  width: 100px;
+  position: absolute;
+  right: 20px;
+  top: -5px;
+  color: #ffffff;
+  background: #6bbfc5;
+  padding: 10px;
+  border-radius: 0px 15px 0px 0px;
+  text-align: center;
 }
 
 .user__heading--label {
-    background: #16565a;
+  background: #16565a;
 }
 
 .kyc__heading--label:before {
-    content: '';
-    height: 85px;
-    width: 80px;
-    background: #ffffff;
-    display: block;
-    position: absolute;
-    top: -17px;
-    left: -70px;
-    border-radius: 50%;
+  content: "";
+  height: 85px;
+  width: 80px;
+  background: #ffffff;
+  display: block;
+  position: absolute;
+  top: -17px;
+  left: -70px;
+  border-radius: 50%;
 }
 
 .user__heading--label:before {
-    background: #91f0f7;
+  background: #91f0f7;
 }
 
 .kyc__para {
-    padding: 25px;
-    background: #ffffff;
-    margin: 0px;
-    color: #6bbfc5;
-    border-radius: 0px 0px 20px 20px;
-    min-height: 150px;
+  padding: 25px;
+  background: #ffffff;
+  margin: 0px;
+  color: #6bbfc5;
+  border-radius: 0px 0px 20px 20px;
+  min-height: 150px;
 }
 
 .user--para {
-    background: #91f0f7;
-    color: #16565a;
+  background: #91f0f7;
+  color: #16565a;
 }
 
 .kyc__circle {
-    background: #6bbfc5;
-    height: 80px;
-    width: 80px;
-    border-radius: 50%;
-    position: absolute;
-    z-index: 1;
-    text-align: center;
-    left: -20px;
-    top: -3px;
+  background: #6bbfc5;
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 1;
+  text-align: center;
+  left: -20px;
+  top: -3px;
 }
 
 .inner-circle {
-    height: 60px;
-    width: 60px;
-    background: #91f0f7;
-    position: relative;
-    border-radius: 50%;
-    top: 10px;
-    left: 10px;
-    line-height: 50px;
-    color: #6bbfc5;
-    font-weight: bold;
-    font-size: 20px;
+  height: 60px;
+  width: 60px;
+  background: #91f0f7;
+  position: relative;
+  border-radius: 50%;
+  top: 10px;
+  left: 10px;
+  line-height: 50px;
+  color: #6bbfc5;
+  font-weight: bold;
+  font-size: 20px;
 }
 
 .user-circle {
-background: #ffffff;
+  background: #ffffff;
+}
+
+.footer {
+  background: #ddf0f1;
+  padding: 20px;
+}
+
+.footer__logo {
+  height: 20px;
+  width: auto;
+}
+
+.footer__contact {
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: repeat(2, 130px);
+  grid-row-gap: 10px;
+}
+.footer__contact--label {
+  font-weight: bold;
+}
+
+.footer__main_company-products {
+  display: flex;
+}
+.footer__main__products {
+  margin-left: 20px;
+}
+.footer__map {
+  width: 250px;
+  height: 300px;
+}
+
+.footer__ad {
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 10px 15px;
+}
+
+.footer__ad__box {
+  height: 50px;
+  width: 110px;
+  background: #438b91;
+  color: white;
+  text-align: center;
+  border-radius: 10px;
+  padding: 3px;
+}
+.footer__ad__box--line1 {
+  line-height: 50px;
+}
+.footer__ad__box--line2 {
+    line-height: 20px;
+  }
+.footer__ad__img {
+  width: 110px;
 }
 
 /* Medium size mobile */
- @media (max-width:375px) and (min-width:326px) {
-    .kyc__heading--label  {
-        width: 155px;
-    }
+@media (max-width: 375px) and (min-width: 326px) {
+  .kyc__heading--label {
+    width: 155px;
+  }
+  .footer__map {
+    width: 320px;
+  }
+
 }
 
 /* Large size mobile */
-@media (min-width:376px) and (max-width:426px) {
-    .kyc__heading--label  {
-        width: 200px;
-    }
+@media (min-width: 376px) and (max-width: 426px) {
+  .kyc__heading--label {
+    width: 200px;
+  }
+  .footer__map {
+    width: 360px;
+  }
 }
 
 /* tab */
 
-@media (min-width:768px) {
-    .kyc {
-        grid-template-columns:repeat(3, 1fr); 
-    }
-    .kyc__para {
-        height: 200px;
-    }
+@media (min-width: 768px) {
+  .kyc {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .kyc__para {
+    height: 210px;
+  }
+  .footer__main {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1 1fr;
+    justify-content: space-evenly;
+  }
+  .footer__map{
+      margin-left: -60px;
+  }
+
+  .footer__main_company-products,
+  .footer__ad {
+    margin: 50px 60px 0px 13px;
+  }
+  .footer__logo {
+    margin-left: 50px;
+  }
 }
 
 /* large devices */
 
-@media (min-width:993px) {
-    .kyc__heading--label  {
-        width: 182px;
-    }
-    .kyc__heading--label:before{
-        height: 72px;
-    }
+@media (min-width: 993px) {
+  .kyc__heading--label {
+    width: 182px;
+  }
+  .kyc__heading--label:before {
+    height: 72px;
+  }
  
+
+
 }
 /* extra large devices */
-@media (min-width:1025px) {
-    .kyc__heading--label  {
-        width: 270px;
-    }
-    .kyc__heading--label:before{
-        height: 72px;
-    }
+@media (min-width: 1025px) {
+  .kyc__heading--label {
+    width: 270px;
+  }
+
+  .kyc__heading--label:before {
+    height: 72px;
+  }
+  .footer__map{
+    margin-left: 0px;
+}
+.footer__contact{
+    margin-top: 0px;
+}
+.footer__main_company-products{
+    margin:-17px 0px 0px 10px ;
+  }
+  .footer__ad{
+      margin: 0px;
+  }
 }
